@@ -1,4 +1,4 @@
-package practica_06_10_2026;
+package tema2.practica_06_10_2026;
 
 import java.util.Scanner;
 

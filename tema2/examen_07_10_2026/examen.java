@@ -1,4 +1,4 @@
-package examen_07_10_2026;
+package tema2.examen_07_10_2026;
 
 import java.util.Scanner;
 
