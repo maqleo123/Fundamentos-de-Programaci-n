@@ -34,6 +34,6 @@ public class ejercicio7 {
             System.out.println("Total final: $" + (total + ENVIO));
 
         }
-
+        sc.close();
     }
 }

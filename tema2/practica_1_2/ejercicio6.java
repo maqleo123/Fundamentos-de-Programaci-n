@@ -28,6 +28,6 @@ public class ejercicio6 {
             System.out.println("Horas extras :0");
             System.out.println("Salario total: $" + salariot);
         }
-
+        sc.close();
     }
 }

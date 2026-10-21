@@ -43,6 +43,7 @@ public class examen {
             System.out.println("===============================");
 
         }
+        sc.close();
 
     }
 
