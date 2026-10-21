@@ -38,5 +38,6 @@ public class OperacionesMatematicas {
             default:
                 System.out.println("Opcion no valida");
         }
+        sc.close();
     }
 }

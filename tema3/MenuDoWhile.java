@@ -1,17 +1,20 @@
+import java.util.Scanner;
+
 public class MenuDoWhile {
     public static void main(String[] args) {
         int opc = 0, n1 = 0, n2 = 0;
+        Scanner sc = new Scanner(System.in);
         do {
             System.out.println("======= Seleccione una opción =======");
             System.out.println(" 1)suma \n 2)resta \n 3)multiplicación \n 4)división \n 5)salir");
             System.out.println("======================================");
-            opc = new java.util.Scanner(System.in).nextInt();
+            opc = sc.nextInt();
             System.out.println("======================================");
             if (opc != 5) {
                 System.out.println("ingresa n1: ");
-                n1 = new java.util.Scanner(System.in).nextInt();
+                n1 = sc.nextInt();
                 System.out.println("ingresa n2: ");
-                n2 = new java.util.Scanner(System.in).nextInt();
+                n2 = sc.nextInt();
                 System.out.println("======================================");
             }
 
@@ -52,5 +55,6 @@ public class MenuDoWhile {
                     break;
             }
         } while (opc != 5);
+        sc.close();
     }
 }

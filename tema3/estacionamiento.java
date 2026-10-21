@@ -77,6 +77,7 @@ public class estacionamiento {
                     break;
             }
         } while (opc != 5);
+        sc.close();
     }
 
 }

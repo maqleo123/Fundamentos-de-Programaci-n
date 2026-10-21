@@ -15,5 +15,6 @@ public class sumaDeNumeros {
         } while (bandera == 1);
         System.out.println("La suma es: " + acumulador);
         System.out.println("se sumaron " + contador + " numeros");
+        sc.close();
     }
 }

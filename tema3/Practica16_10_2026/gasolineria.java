@@ -43,7 +43,7 @@ public class gasolineria {
                 System.out.println("=========================================");
             }
 
-            System.out.println("\n¿Desea registrar otra carga?");
+            System.out.println("\nDesea registrar otra carga?");
             System.out.println("1)Si");
             System.out.println("2)No");
             System.out.print("Opcion: ");
@@ -51,13 +51,13 @@ public class gasolineria {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("Registrando siguiente carga...");
+                    System.out.println("Registrando siguiente carga");
                     break;
                 case 2:
-                    System.out.println("Finalizando registro...");
+                    System.out.println("Finalizando registro");
                     break;
                 default:
-                    System.out.println("Opcion no valida. Finalizando registro.");
+                    System.out.println("Opcion no valida finalizando registro");
                     opcion = 2;
                     break;
             }
@@ -77,6 +77,6 @@ public class gasolineria {
         System.out.println("Importe antes de descuentos: $" + importeAntes);
         System.out.println("Total cobrado: $" + totalCobrado);
         System.out.println("Promedio cobrado por carga: $" + promedio);
-
+        entrada.close();
     }
 }

@@ -45,6 +45,7 @@ public class AreasDeFiguras {
                 System.out.println("Error: Opcion no valida");
 
         }
+        scanner.close();
     }
 
 }

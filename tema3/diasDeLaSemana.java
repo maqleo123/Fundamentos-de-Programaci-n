@@ -31,5 +31,6 @@ public class diasDeLaSemana {
             default:
                 System.out.println("Opción no válida");
         }
+        sc.close();
     }
 }

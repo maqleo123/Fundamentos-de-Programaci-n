@@ -11,6 +11,6 @@ public class ParInpar {
         } else {
             System.out.println("El numero es inpar...");
         }
-
+        sc.close();
     }
 }

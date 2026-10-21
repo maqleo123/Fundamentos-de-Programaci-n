@@ -14,6 +14,7 @@ public class ParInparWhile {
             }
             c++;
         }
+        sc.close();
     }
 
 }

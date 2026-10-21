@@ -20,6 +20,7 @@ public class centroMedico {
 
             descuento = 0;
             totalPagado = costo;
+            System.out.println("=========================================");
 
             if (edad < 12) {
                 ninos++;
@@ -43,12 +44,26 @@ public class centroMedico {
 
             System.out.println("Descuento: $" + descuento);
             System.out.println("Total a pagar: $" + totalPagado);
+            System.out.println("=========================================");
 
             System.out.println("\nDesea registrar otro paciente?");
             System.out.println("1)Si");
             System.out.println("2)No");
             System.out.print("Opcion: ");
             opcion = entrada.nextInt();
+
+            switch (opcion) {
+                case 1:
+                    System.out.println("Registrando siguiente paciente");
+                    break;
+                case 2:
+                    System.out.println("Finalizando registro");
+                    break;
+                default:
+                    System.out.println("Opcion no valida finalizando registro");
+                    opcion = 2;
+                    break;
+            }
 
         } while (opcion == 1);
 
@@ -58,7 +73,7 @@ public class centroMedico {
             promedio = 0;
         }
 
-        System.out.println("\n--- REPORTE DEL DIA ---");
+        System.out.println("\n===== REPORTE DEL DIA =====");
         System.out.println("Total de pacientes: " + pacientes);
         System.out.println("Niños: " + ninos);
         System.out.println("Adolescentes: " + adolescentes);
@@ -67,5 +82,6 @@ public class centroMedico {
         System.out.println("Dinero recaudado: $" + dineroRecaudado);
         System.out.println("Descuentos aplicados: $" + descuentosAplicados);
         System.out.println("Promedio pagado por paciente: $" + promedio);
+        entrada.close();
     }
 }

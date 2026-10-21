@@ -20,5 +20,6 @@ public class FastFoot {
             default:
                 System.out.println("opcion no valida");
         }
+        sc.close();
     }
 }
