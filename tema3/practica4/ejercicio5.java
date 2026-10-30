@@ -9,7 +9,6 @@ public class ejercicio5 {
 
         Scanner entrada = new Scanner(System.in);
 
-        // Variables
         int opcion;
         int numero;
         int suma;

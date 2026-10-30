@@ -8,7 +8,6 @@ public class ejercicio2 {
 
         Scanner entrada = new Scanner(System.in);
 
-        // Constantes
         final double INTERES_MENSUAL = 0.01;
         final int PLAZO_MAXIMO = 24;
 
